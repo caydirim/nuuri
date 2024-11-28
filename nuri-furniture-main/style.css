@@ -1,0 +1,480 @@
+/* Roboto Font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Genel Stiller*/
+body {
+  font-family: "Roboto", sans-serif;
+  color: #444;
+  line-height: 1.5;
+  font-size: 16px;
+  padding: 0 20px;
+}
+
+/*Body - Responsive*/
+@media (min-width: 768px) {
+  body {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+}
+
+/*Header*/
+.logo {
+  width: 125px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav-links li {
+  list-style: none;
+}
+.nav-links li a:link,
+.nav-links li a:visited,
+.nav-links li a:active {
+  text-decoration: none;
+  color: #b8a994;
+}
+.nav-links li a:hover {
+  color: #8a796b;
+}
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+/*Header - Responsive*/
+@media (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+/*Hero*/
+.hero-img {
+  width: 100%;
+  order: -1;
+  border-radius: 25px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.hero-text {
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.hero-text p {
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.hero-second{
+  display: flex;
+  flex-direction:column;
+  margin-top: 60px;
+}
+
+.hero-text h3 {
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+
+
+#hero-text-second h3{
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+#hero-text-second{
+  margin-top: 30px;
+}
+/*toprightbottomleft*/
+.footer-sponsors-text{
+  margin: 60px auto 0 auto;
+  width: 50%;
+}
+
+.footer-img{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-img img{
+  width: 60px;
+  height: fit-content;
+}
+
+.enzahome{
+  height: 30px;
+}
+
+        .form-container {
+            padding: 20px;
+            width: 100%;
+        }
+
+        .form-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+            background-color: #b8a994;
+            
+        }
+
+        .form-textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+            resize: none;
+            height: 100px;
+            background-color: #b8a994;
+        }
+
+        .form-button {
+            width: 100%;
+            padding: 10px;
+            background-color: #b8a994;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            color: #444;
+
+        }
+
+        .form-button:hover {
+            background-color: #b8a994;
+        }
+        
+        ::placeholder{
+          color: #444;
+        }
+        .form-input::placeholder, 
+        .form-textarea::placeholder {
+            color: #444; /* Placeholder text color */
+            font-family: "Roboto", sans-serif;
+
+
+            font-size: 13px; /* Change font size */
+        }
+
+
+        .form-container{
+          display:flex;
+          flex-direction:row;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 40px;
+        }
+        
+        /*.footer-home{ 
+          width:200px;
+          margin: 10px;
+          
+        }*/
+/*
+        .footer-home {
+          display:flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          width: 120%;
+          margin-bottom: 30px;
+          z-index: 0;
+        }
+
+ */
+        .footer-home img{ 
+        object-fit:cover;  
+        height: 100px;
+        width: 320px;
+        margin-bottom: 30px;
+        z-index: 0;
+        }
+       
+        .footer-final{
+          width: 320px;
+          height: 20px;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-around;  
+          background-color:  #b8a9949f; 
+          margin-left: -20px; 
+          margin-right: -20px;
+          }
+
+          .footer-final-text{
+            font-size: 10px;
+          }
+
+@media(min-width:1440px){
+ 
+.hero-second{
+  display: flex;
+  margin-top: 40px;
+}
+
+.hero-text h3 {
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+#hero-text-second {
+  margin-top:80px;
+  margin-right:10px;
+}
+#hero-img-second{
+  object-fit: cover;
+  width: 300px;
+  margin-right:-40px;
+} 
+
+.footer h2{
+  display: flex;
+  justify-content:center;
+}
+
+footer img{
+  width: 100px;
+}
+
+.footer-img{
+  display:flex;
+  gap: 30px;
+  justify-content:space-between;
+}
+
+.enzahome{
+object-fit:contain;
+}
+}
+
+.form-container{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+}
+
+/*.footer-home{ 
+  width:200px;
+  margin: 10px;
+  
+}*/
+.footer-home {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  
+}
+.footer-home img{ 
+object-fit:cover;  
+width: 320px;
+height: 200px;
+margin-left:-10px;
+margin-right:-10px;
+margin-bottom: 0;
+}
+
+/* Hero - Responsive */
+@media (min-width: 768px) {
+  .hero {
+    flex-direction: row;
+    align-items: center;
+  }
+  .hero-img {
+    width: 55%;
+    order: 1;
+  }
+  .hero-text {
+    text-align: start;
+  }
+
+  h1 {
+    font-size: 16px;
+  }
+  .hero-second {
+    flex-direction: row;
+    align-items: center;
+  }
+  .hero-img-second {
+    width: 55%;
+    order: 1;
+  }
+  .hero-text-second {
+    text-align: start;
+  }
+ 
+  .form{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .footer-home {
+    width: 200px;
+    order: 1;
+    margin-left:30px;
+    padding: 0%;
+  }
+  .form-container {
+    text-align: start;
+    padding: 0%;
+    width: 300px;
+  }
+  .footer-home img{
+    border-radius: 25px;
+  }
+  .footer-final{
+    position: absolute;
+    width: 100%;
+    margin-left: -100px ;
+    padding: 0;
+    width: 100%;
+    margin-left: -13% ;
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero-img {
+    width: 50%;
+  }
+
+  .hero-text {
+    padding-right: 100px;
+  }
+  .hero-text p {
+    font-size: 28px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+  .footer-final{
+    position: absolute;
+    width: 100%;
+    margin-left: -11.5% ;
+    padding: 0;
+  }
+  .form{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-home {
+    width: 200px;
+    order: 1;
+    margin-left:30px;
+    padding: 0%;
+  }
+  .form-container {
+    text-align: start;
+    padding: 0%;
+    width: 300px;
+  }
+  .footer-home img{
+    border-radius: 25px;
+  }
+  .footer-final{
+    height: 30px;
+  }
+}
+
+/* Misyon */
+.mission {
+  margin-top: 40px;
+  background: url(./img/furnitures/mobilya-4.jpg) no-repeat center/cover;
+  border-radius: 25px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+
+.mission-text {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+
+.mission-text p {
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.mission-text h2{
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .mission-text {
+    margin: 0 120px;
+  }
+}
